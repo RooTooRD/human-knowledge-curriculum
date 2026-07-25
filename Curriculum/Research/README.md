@@ -7,4 +7,6 @@ experimental, observational, historical, textual, qualitative, and design resear
 - [Complete syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Glossary](glossary.md)
+- [Projects](projects.md)
+- [Assessment](assessment.md)
 - [Global graph](../global-graph.md)

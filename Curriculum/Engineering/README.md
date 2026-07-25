@@ -7,4 +7,6 @@ real constraints, with safety, ethics, sustainability, and maintenance built in.
 - [Complete syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Glossary](glossary.md)
+- [Projects](projects.md)
+- [Assessment](assessment.md)
 - [Global graph](../global-graph.md)

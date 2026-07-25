@@ -7,4 +7,6 @@ aesthetic judgment, empathy without naïveté, and knowledge of major world trad
 - [Complete syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Glossary](glossary.md)
+- [Projects](projects.md)
+- [Assessment](assessment.md)
 - [Global graph](../global-graph.md)

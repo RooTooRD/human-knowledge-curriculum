@@ -7,4 +7,6 @@ places, populations, networks, economies, cultures, and political territories.
 - [Complete syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Glossary](glossary.md)
+- [Projects](projects.md)
+- [Assessment](assessment.md)
 - [Global graph](../global-graph.md)

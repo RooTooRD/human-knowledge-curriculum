@@ -7,4 +7,6 @@ value, mind, science, language, politics, religion, and human life.
 - [Complete syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Glossary](glossary.md)
+- [Projects](projects.md)
+- [Assessment](assessment.md)
 - [Global graph](../global-graph.md)

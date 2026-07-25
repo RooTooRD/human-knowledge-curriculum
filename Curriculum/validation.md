@@ -130,3 +130,50 @@ The validator:
 External sites can reject automated clients or change without notice. Their links were
 checked during production where access allowed; the dated annual-review rule remains
 part of Phase 3 rather than being treated as a permanent guarantee.
+
+## Phase 4 result
+
+| Check | Result |
+|---|---:|
+| Discipline project files | 39 |
+| Discipline assessment files | 39 |
+| Small project specifications | 39 |
+| Medium project specifications | 39 |
+| Large project specifications | 39 |
+| Capstone specifications | 39 |
+| Total project specifications | 156 |
+| Graph units expected | 634 |
+| Unit project-contribution mappings | 634 |
+| Unit assessment mappings | 634 |
+| Distinct assessment modes | 16 |
+| Syllabus outcomes absent from summative tasks | 0 |
+| Projects missing required fields | 0 |
+| Assessment rows missing required fields | 0 |
+| Missing, unknown, or duplicate unit mappings | 0 |
+| Broken relative Markdown links | 0 |
+
+Every project declares scale, prerequisites, purpose, authentic brief, deliverables,
+milestones, constraints, process evidence, rubric, safety/ethics review, and extension.
+Every unit maps exactly once to a required project contribution.
+
+Every assessment declares formative work, a summative unfamiliar-case task, modes,
+conditions, pass evidence, and a corrective reassessment path. The summative text
+reproduces every observable outcome from the corresponding syllabus record.
+
+## Phase 4 validation method
+
+The validator:
+
+1. parsed the 634 Phase 1 graph IDs and corresponding Phase 2 outcomes;
+2. required `.S`, `.M`, `.L`, and `.C` project records for every discipline;
+3. required all project fields and exact one-to-one contribution-matrix coverage;
+4. required exact one-to-one assessment-matrix coverage and all seven fields;
+5. checked every semicolon-separated syllabus outcome against its summative task;
+6. confirmed curriculum-wide presence of written exams, oral exams, essays, projects,
+   proofs, presentations, programming assignments, and research;
+7. resolved all relative Markdown links.
+
+This validation establishes specification coverage and internal consistency. Actual
+validity and reliability must also be reviewed from learner work: item difficulty,
+inter-rater agreement, accessibility, unintended construct variance, and the quality
+of transfer evidence are empirical Phase 6 concerns.

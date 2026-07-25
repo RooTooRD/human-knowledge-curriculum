@@ -117,3 +117,80 @@ Completed 2026-07-25.
 - Added deterministic build and validation scripts.
 - Validation result: 634 resource mappings, 634 glossary mappings, 78 bundles, and
   zero parity, resolution, metadata, glossary-count, or relative-link failures.
+
+## 2026-07-25 — Phase 4 production plan
+
+Phase 4 turns every observable outcome into evidence of mastery. It adds projects and
+assessment instruments without changing graph IDs, prerequisites, or syllabus outcomes.
+
+### Project normalization
+
+Each discipline receives `projects.md` with four required scales:
+
+1. **Small:** 2–8 hours; one bounded artifact and immediate feedback.
+2. **Medium:** 15–40 hours; several connected units and at least one revision cycle.
+3. **Large:** 60–150 hours; advanced integration, external constraints, and a public or
+   inspectable artifact.
+4. **Capstone:** 150–400 hours; independent question or design, proposal, milestone
+   reviews, final artifact, oral defense, and reflective audit.
+
+Every project specifies purpose, prerequisites, brief, deliverables, milestones,
+constraints, evidence, rubric, safety/ethics checks, and extension options. Every graph
+unit has a declared primary contribution to one project scale; capstones synthesize the
+whole discipline.
+
+### Assessment normalization
+
+Each discipline receives `assessment.md`. Every graph unit receives exactly one
+assessment specification containing:
+
+1. a low-stakes formative check;
+2. a summative performance task aligned to its observable outcomes;
+3. assessment modes and permitted resources;
+4. concrete evidence required for a pass;
+5. a reassessment rule based on correcting the failed component.
+
+Across the curriculum, modes include written exams, oral examinations, essays,
+projects, proofs, presentations, programming assignments, laboratory or field
+performance, and research. Selection follows the outcome: recall is not accepted as
+evidence for an outcome requiring proof, design, evaluation, creation, or performance.
+
+### Quality rules
+
+- Assessments are criterion-referenced rather than curved.
+- A global analytic rubric separates accuracy, method/evidence, artifact quality, and
+  communication/reflection.
+- A total score cannot compensate for a failed safety, ethics, validity, or provenance
+  requirement.
+- Formative work provides feedback before the summative attempt.
+- Reassessment requires new evidence and an error analysis, not simple resubmission.
+- Accommodations may change access conditions but not the target construct.
+- Oral defense and process evidence are used where authorship or AI assistance must be
+  verified.
+
+### Phase 4 acceptance tests
+
+- 39 project files and 39 assessment files exist.
+- Every discipline has small, medium, large, and capstone specifications.
+- All 634 graph IDs occur exactly once in a project contribution matrix.
+- All 634 graph IDs occur exactly once in an assessment matrix.
+- Every assessment declares formative work, summative evidence, mode, conditions,
+  pass evidence, and reassessment.
+- Every project has deliverables, milestones, rubric, and safety/ethics review.
+- Every syllabus outcome is represented in its unit's summative task.
+- Relative links resolve.
+
+### Phase 4 completion record
+
+Completed 2026-07-25.
+
+- Added 39 `projects.md` files with small, medium, large, and capstone records.
+- Added 156 discipline-specific project briefs with artifacts, milestones, rubrics,
+  constraints, safety/ethics checks, and extension paths.
+- Mapped all 634 graph units exactly once to a primary project contribution.
+- Added 39 `assessment.md` files and 634 unit-level formative/summative specifications.
+- Reproduced every syllabus outcome in the corresponding summative evidence task.
+- Added 16 assessment modes, retention checks, corrective reassessment, process
+  evidence, assistance disclosure, oral authorship checks, and accessibility rules.
+- Validation result: zero project-field, unit-parity, outcome-alignment,
+  assessment-field, mode-coverage, or relative-link failures.

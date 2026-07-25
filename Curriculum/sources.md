@@ -49,3 +49,18 @@ OpenCourseWare, Open Yale Courses, NPTEL, OpenStax, the Stanford Encyclopedia of
 Philosophy, NCBI Bookshelf, WHO, IPCC, NASA Science, NIST CSRC, Smarthistory, CORE
 Econ, and the Cornell Legal Information Institute. Their living pages are dated in the
 catalog and must be rechecked annually.
+
+## Phase 4 assessment-design sources
+
+| Source | Principle applied |
+|---|---|
+| [MIT Teaching + Learning Lab: Assess for Learning](https://tll.mit.edu/teaching-resources/assess-learning/how-to-assess-for-learning/) | backward alignment, actionable formative evidence, transparent task purpose |
+| [MIT Digital Learning Toolkit: Designing Assessments](https://dltoolkit.mit.edu/online-course-design-guide/design/designing-assessments/) | multiple assessment modes and both formative and summative assessment |
+| [Carnegie Mellon Eberly Center: Align Assessments, Objectives, and Instruction](https://www.cmu.edu/teaching/assessment/basics/alignment.html) | match recall, interpretation, application, analysis, evaluation, and creation to tasks that elicit them |
+| [Cambridge Centre for Teaching and Learning: Good Practice in Assessment](https://www.cctl.cam.ac.uk/enhancing-education/assessment/good-practice/good-practice-assessment) | validity through appropriate formats, deliberate conditions, sequencing, and frequency |
+| [Cambridge Assessment Glossary](https://www.cctl.cam.ac.uk/enhancing-education/assessment/glossary) | criterion-referenced judgments, reliability, equity, inclusion, transparent criteria, and reasonable adjustments |
+| [Cambridge psychometric principles](https://www.repository.cam.ac.uk/items/4ff1fe89-bf0e-484a-9a1b-0702e0dc92c8) | validity, reliability, standardization, and freedom from bias |
+
+These sources guide the assessment architecture; they do not supply discipline-specific
+content standards. Discipline-specific validity comes from reproducing the observable
+operations already declared in each unit's syllabus outcomes.

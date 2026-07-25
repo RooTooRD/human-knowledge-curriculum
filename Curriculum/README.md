@@ -15,8 +15,9 @@ be built. Start with:
 4. [Syllabus schema](syllabus-schema.md)
 5. [Resource and glossary schema](resource-schema.md)
 6. [Shared resource catalog](resource-catalog.md)
-7. [Discipline index](#discipline-index)
-8. [Standards and source frameworks](sources.md)
+7. [Project and assessment schema](phase-4-schema.md)
+8. [Discipline index](#discipline-index)
+9. [Standards and source frameworks](sources.md)
 
 The graph begins at ordinary language, observation, counting, and self-regulation. It
 then develops reasoning, quantitative and evidential literacy, disciplinary models, and
@@ -100,6 +101,6 @@ finally integrative judgment. A learner may branch, but may not skip prerequisit
 | 1. Knowledge graph | In this release |
 | 2. Syllabi and outcomes | Complete in this release (634/634 units) |
 | 3. Resources and glossaries | Complete in this release (634/634 units) |
-| 4. Projects and assessment | Not started |
+| 4. Projects and assessment | Complete in this release (156 projects; 634/634 unit assessments) |
 | 5. Schedules and pathways | Not started |
 | 6. Editorial integration | Not started |
