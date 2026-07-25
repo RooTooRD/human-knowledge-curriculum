@@ -9,4 +9,5 @@ work, money, civic participation, emergencies, judgment, and a meaningful life.
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

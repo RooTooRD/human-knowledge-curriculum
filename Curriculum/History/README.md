@@ -9,4 +9,5 @@ argument, comparison, context, memory, and the ethical representation of past li
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

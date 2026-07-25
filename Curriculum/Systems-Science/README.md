@@ -9,4 +9,5 @@ feedback, networks, emergence, resilience, risk, and intervention.
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

@@ -9,4 +9,5 @@ across molecular, biological, industrial, and environmental scales.
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

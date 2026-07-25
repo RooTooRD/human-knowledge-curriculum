@@ -9,4 +9,5 @@ institutions, corporate decisions, and the ethical and systemic consequences of 
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

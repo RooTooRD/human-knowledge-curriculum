@@ -9,4 +9,5 @@ measure performance, innovate, compete, and remain accountable to stakeholders.
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

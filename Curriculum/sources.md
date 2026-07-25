@@ -64,3 +64,16 @@ catalog and must be rechecked annually.
 These sources guide the assessment architecture; they do not supply discipline-specific
 content standards. Discipline-specific validity comes from reproducing the observable
 operations already declared in each unit's syllabus outcomes.
+
+## Phase 5 learning and retention sources
+
+| Source | Scheduling implication |
+|---|---|
+| [Roediger and Karpicke, “Test-Enhanced Learning” (2006)](https://doi.org/10.1111/j.1467-9280.2006.01693.x) | delayed retrieval can support retention better than repeated study; reviews require production, not recognition |
+| [Cepeda et al., “Spacing Effects in Learning” (2008)](https://doi.org/10.1111/j.1467-9280.2008.02209.x) | useful spacing depends on the desired retention interval; longer horizons generally support longer gaps |
+| [Dunlosky et al., “Improving Students’ Learning With Effective Learning Techniques” (2013)](https://doi.org/10.1177/1529100612453266) | practice testing and distributed practice have broad utility; interleaving, self-explanation, and other methods require context-sensitive use |
+| [A Practical Review of Mastery Learning (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10159400/) | formative evidence should align to outcomes, feedback should diagnose specific errors, and correction should be checked with a parallel task |
+
+These studies support retrieval, spacing, feedback, and adaptive correction. They do
+not justify one universal review interval or a fixed number of hours for mastery.
+Phase 5 therefore labels its intervals and hour budgets as adjustable planning priors.

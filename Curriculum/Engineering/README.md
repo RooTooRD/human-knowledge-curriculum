@@ -9,4 +9,5 @@ real constraints, with safety, ethics, sustainability, and maintenance built in.
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

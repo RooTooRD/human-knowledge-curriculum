@@ -177,3 +177,47 @@ This validation establishes specification coverage and internal consistency. Act
 validity and reliability must also be reviewed from learner work: item difficulty,
 inter-rater agreement, accessibility, unintended construct variance, and the quality
 of transfer evidence are empirical Phase 6 concerns.
+
+## Phase 5 result
+
+| Check | Result |
+|---|---:|
+| Discipline schedule files | 39 |
+| Graph units expected | 634 |
+| Unit time-budget rows | 634 |
+| Core units | 544 |
+| Extension units | 90 |
+| Core hours | 14,460 |
+| Extension hours | 6,394 |
+| Full curriculum hours | 20,854 |
+| Ten-year route unit coverage | 544/544 Core |
+| Fifteen-year route unit coverage | 544/544 Core |
+| Twenty-year route unit coverage | 634/634 |
+| Specializations | 12 |
+| Extension units assigned to exactly one specialization | 90/90 |
+| Component-sum or discipline/global-total mismatches | 0 |
+| Route prerequisite-order violations | 0 |
+| Route annual-capacity violations | 0 |
+| Missing, unknown, or duplicate schedule units | 0 |
+| Broken relative Markdown links | 0 |
+
+Every unit has distinct reading, exercise, project, review, and mastery hours. The
+discipline summaries, global totals, annual route tables, and specialization totals
+reconcile to those same rows.
+
+## Phase 5 validation method
+
+The validator:
+
+1. parsed every Phase 1 unit, difficulty, status, and prerequisite;
+2. compared each discipline schedule with the declared difficulty-based hour model;
+3. recomputed component, discipline, Core, Extension, and global totals;
+4. parsed every yearly unit list in the 10-, 15-, and 20-year routes;
+5. checked exact route coverage, uniqueness, prerequisite order, and annual capacity;
+6. required twelve specialization records, Core gateways, Extension-only requirements,
+   correct added hours, and exact one-to-one Extension coverage;
+7. checked the complete review sequence and all relative Markdown links.
+
+The hour estimates remain hypotheses until real learners log time. Phase 6 should
+compare planned and observed time by unit, revise difficulty multipliers, and publish
+the sample size and uncertainty rather than presenting point estimates as universal.

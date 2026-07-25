@@ -9,4 +9,5 @@ assumptions about literacy, numeracy, tools, or personal agency.
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

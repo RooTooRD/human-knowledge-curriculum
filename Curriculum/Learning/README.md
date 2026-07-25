@@ -9,4 +9,5 @@ Learning how to learn turns the curriculum from a reading list into a sustainabl
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

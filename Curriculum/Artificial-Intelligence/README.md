@@ -9,4 +9,5 @@ how generative models work, and how their deployment affects persons and institu
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)

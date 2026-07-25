@@ -194,3 +194,87 @@ Completed 2026-07-25.
   evidence, assistance disclosure, oral authorship checks, and accessibility rules.
 - Validation result: zero project-field, unit-parity, outcome-alignment,
   assessment-field, mode-coverage, or relative-link failures.
+
+## 2026-07-25 — Phase 5 production plan
+
+Phase 5 converts the dependency graph and mastery specifications into feasible lifelong
+calendars. Time estimates are planning priors, not promises: diagnostic performance,
+language background, disability, access to supervision, and chosen project scope may
+change actual time substantially.
+
+### Unit time-budget model
+
+Every graph unit receives five non-overlapping hour estimates:
+
+1. **Reading/instruction:** first exposure, lectures, demonstrations, and source study.
+2. **Exercises/practice:** problems, retrieval, drills, analysis, and deliberate practice.
+3. **Projects/application:** the unit's allocated contribution to Phase 4 artifacts.
+4. **Review:** spaced retrieval and cumulative maintenance after initial mastery.
+5. **Mastery assessment:** summative attempt, feedback analysis, and one planned
+   reassessment allowance.
+
+Default planning budgets are:
+
+| Difficulty | Reading | Exercises | Projects | Review | Mastery | Total |
+|---|---:|---:|---:|---:|---:|---:|
+| Beginner | 3 | 4 | 3 | 2 | 1 | 13 |
+| Intermediate | 5 | 7 | 6 | 3 | 3 | 24 |
+| Advanced | 9 | 12 | 18 | 6 | 5 | 50 |
+| Expert | 14 | 18 | 50 | 9 | 9 | 100 |
+
+Project allocations are amortized contributions to shared discipline projects. A
+learner completing an especially ambitious capstone must replace the default with the
+project's actual logged hours.
+
+### Review protocol
+
+The default retrieval checkpoints after initial mastery are:
+
+`1 day → 7 days → 30 days → 90 days → 180 days → 365 days → annually`
+
+This sequence is a practical adaptive heuristic, not a claim of universally optimal
+intervals. A successful effortful retrieval keeps or lengthens the interval; a failed
+retrieval triggers correction and a shorter parallel check. Every year includes a
+cumulative audit and four buffer weeks.
+
+### Global routes
+
+- **10-year intensive Core:** 31 hours/week, 48 weeks/year.
+- **15-year balanced Core plus one specialization:** 23 hours/week, 48 weeks/year;
+  2,100 hours of capacity are reserved across the route for the selected Extension.
+- **20-year full polymath:** 23 hours/week, 48 weeks/year.
+
+All routes use the same prerequisite-safe topological order. The 15-year route reserves
+hours alongside the Core for one declared Extension specialization. The 20-year route
+includes every Extension unit; completing every discipline capstone at maximum scope
+would require additional time beyond the default.
+
+### Phase 5 acceptance tests
+
+- 39 discipline `schedule.md` files exist.
+- All 634 graph IDs occur exactly once in the unit time-budget tables.
+- Every row has reading, exercises, projects, review, mastery, and total hours.
+- Component sums and discipline/global totals reconcile exactly.
+- Core and Extension totals are reported separately.
+- 10-, 15-, and 20-year routes declare weekly load, annual weeks, capacity, and slack.
+- Route unit order never precedes a prerequisite.
+- Every Core unit appears in all three routes; every Extension unit appears in the
+  20-year route and at least one specialization.
+- Review intervals, failure adaptation, annual audit, leave, and buffer time are explicit.
+- Specialization gateways and capstones list exact unit IDs.
+- Relative links resolve.
+
+### Phase 5 completion record
+
+Completed 2026-07-25.
+
+- Added 39 discipline `schedule.md` files and 634 exact unit time budgets.
+- Separated reading, exercises, projects, spaced review, and mastery assessment.
+- Reconciled 14,460 Core hours, 6,394 Extension hours, and 20,854 full hours.
+- Added dependency-safe 10-year Core, 15-year Core-plus-specialization, and 20-year
+  full-polymath routes with exact yearly unit lists and capacity accounting.
+- Added twelve specialization paths assigning all 90 Extension units exactly once.
+- Added adaptive retrieval checkpoints from one day through annual maintenance,
+  failure correction, consolidation weeks, annual audit, leave, and overload rules.
+- Validation result: zero time-component, total, coverage, duplication, prerequisite,
+  annual-capacity, specialization, review-sequence, or relative-link failures.

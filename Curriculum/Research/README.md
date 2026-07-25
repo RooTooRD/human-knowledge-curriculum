@@ -9,4 +9,5 @@ experimental, observational, historical, textual, qualitative, and design resear
 - [Glossary](glossary.md)
 - [Projects](projects.md)
 - [Assessment](assessment.md)
+- [Schedule](schedule.md)
 - [Global graph](../global-graph.md)
