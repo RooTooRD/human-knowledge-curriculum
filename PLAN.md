@@ -387,3 +387,72 @@ Completed 2026-07-25.
 - Published explicit limits: structural validation does not itself establish
   curriculum effectiveness, assessment validity, universal hours, or rendered WCAG
   conformance; those claims require the documented human and empirical evaluation.
+
+## 2026-07-25 — Public web application plan
+
+The Markdown corpus remains canonical. The web application provides a generated,
+read-only presentation layer plus local learner state; it does not create a second
+editable curriculum.
+
+### Product surfaces
+
+1. **Public landing:** purpose, real curriculum totals, knowledge-domain map, lifelong
+   routes, and complete discipline index.
+2. **Discipline reader:** all 39 disciplines with Overview, Roadmap, Syllabus,
+   Resources, Glossary, Projects, Assessment, Schedule, and Connections documents.
+3. **Unit explorer:** searchable 634-unit index with difficulty, Core/Extension status,
+   exact prerequisites, and deep links into the owning discipline.
+4. **Pathways:** compare the 10-, 15-, and 20-year routes and open the canonical route
+   document.
+5. **Progress:** mark exact unit IDs mastered, persist progress locally, filter by
+   discipline and status, and export or clear the local record deliberately.
+6. **Global search:** search discipline titles, unit IDs, unit titles, and document
+   names without sending learner queries to a service.
+
+### Technical architecture
+
+- Svelte 5 with runes and Vite 8.
+- Routes are defined in `src/App.svelte` through hash URLs so the static build works on
+  ordinary file or static-hosting paths without server rewrites.
+- Canonical Markdown is imported at build time with Vite raw modules and rendered only
+  after DOMPurify sanitization.
+- A generated TypeScript index parses stable graph IDs and metadata from the roadmaps;
+  the generator fails if the corpus does not contain the expected 39 disciplines and
+  634 units.
+- Local progress uses versioned `localStorage`; no account, analytics, or remote data
+  collection is introduced.
+- Responsive behavior follows the approved desktop landing, desktop discipline reader,
+  and mobile reader concepts stored under `design/`.
+
+### Visual system
+
+- Warm pale paper background, forest-black ink, deep green interaction color, and
+  restrained brass accents.
+- Literary serif content typography paired with compact sans-serif application chrome.
+- Open ruled lists, folio numbers, cartographic linework, minimal radius, and almost no
+  shadow.
+- Desktop reader uses discipline, document, and table-of-contents rails; mobile replaces
+  them with drawers, horizontal document tabs, and bottom navigation.
+- Motion is limited to focus, selection, drawer, and route transitions and respects
+  `prefers-reduced-motion`.
+
+### Web acceptance tests
+
+- Every discipline and all nine discipline documents are reachable.
+- All 634 unit IDs appear in search and unit exploration.
+- Search, document tabs, hash navigation, mobile drawers, route navigation, and local
+  progress work with keyboard and pointer input.
+- Markdown HTML is sanitized and external links are marked and isolated.
+- The app has skip navigation, visible focus, semantic landmarks, descriptive controls,
+  responsive tables, and no Svelte accessibility warnings.
+- `svelte-check`, production build, and curriculum validators pass.
+- Desktop landing, desktop reader, and mobile reader are compared with the approved
+  concept images through browser screenshots and image inspection.
+
+## 2026-07-25 — Web implementation note
+
+The completed implementation emits canonical Markdown as lazy Vite URL assets rather
+than eager raw modules. Discipline and reference documents are fetched only when opened,
+sanitized before rendering, and Mermaid is loaded only for documents containing
+diagrams. This preserves the static-hosting architecture while keeping the initial
+application payload independent of the full Markdown corpus.
