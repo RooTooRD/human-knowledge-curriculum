@@ -20,7 +20,7 @@ interdisciplinary knowledge.
 | Media literacy | [UNESCO Media and Information Literacy Curriculum](https://www.unesco.org/en/articles/media-and-information-literate-citizens) | access, evaluation, creation, digital citizenship, misinformation, AI |
 | Financial literacy | [OECD/EU adult financial competence framework](https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/01/financial-competence-framework-for-adults-in-the-european-union_614b8b97/510f133c-en.pdf) | money, planning, risk, financial landscape, digital finance |
 
-## Source policy for later phases
+## Source policy
 
 - Prefer primary professional standards and official university materials.
 - Record edition and publication year for every book.
@@ -77,3 +77,18 @@ operations already declared in each unit's syllabus outcomes.
 These studies support retrieval, spacing, feedback, and adaptive correction. They do
 not justify one universal review interval or a fixed number of hours for mastery.
 Phase 5 therefore labels its intervals and hour budgets as adjustable planning priors.
+
+## Phase 6 publication and accessibility sources
+
+| Source | Publication implication |
+|---|---|
+| [W3C, Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) | organize content semantically; provide text alternatives; preserve adaptable relationships, meaningful sequence, descriptive headings, understandable labels, and navigability |
+| [W3C Web Accessibility Initiative, Page Structure](https://www.w3.org/WAI/tutorials/page-structure/) | use identifiable page regions and headings so people and assistive technologies can understand document organization |
+| [W3C Web Accessibility Initiative, Tables Tutorial](https://www.w3.org/WAI/tutorials/tables/) | reserve tables for data relationships and preserve explicit header-to-cell structure in the published renderer |
+| [CommonMark specification and reference](https://commonmark.org/) | keep source Markdown portable and predictable across public rendering systems |
+
+The repository validates source-level heading, link, table, image-alternative, and
+diagram-prose rules. WCAG conformance applies to a rendered publication and therefore
+also requires platform-level tests such as keyboard operation, zoom, reflow, contrast,
+focus, and assistive-technology behavior. Phase 6 does not turn a Markdown lint result
+into a conformance claim.

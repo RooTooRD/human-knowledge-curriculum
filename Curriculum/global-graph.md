@@ -20,6 +20,11 @@ flowchart TD
     L0 --> L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7 --> L8
 ```
 
+In prose: human starting capabilities open learning and expression, which open reliable
+reasoning, fundamental models, disciplinary cores, modern systems, advanced analysis,
+responsible action, and finally expert inquiry. An explicit prerequisite may delay a
+unit even when its broad layer is already open.
+
 ## Cross-disciplinary backbone
 
 ```mermaid
@@ -64,6 +69,12 @@ flowchart LR
     LRN --> EDU[Education]
 ```
 
+In prose: foundations, learning, logic, writing, mathematics, statistics, research, and
+computation supply widely reused capabilities. Natural sciences, human sciences,
+institutions, humanities, arts, engineering, and practical life then branch and
+recombine through the arrows shown. The diagram is illustrative; exact unit-level
+prerequisites in discipline roadmaps are authoritative.
+
 ## Milestone gates
 
 | Gate | Learner can reliably… | Opens |
@@ -107,4 +118,3 @@ cross many folders.
 | Sustainable cities | geography, architecture, engineering, climate, economics, politics, sociology |
 | War, peace, and security | history, political science, law, economics, psychology, security, religion |
 | Human flourishing | philosophy, psychology, health, relationships, economics, religion, art, civic life |
-

@@ -4,24 +4,33 @@
 > This is a lifelong curriculum for an educated person, not a degree program,
 > credential, or claim that every field can be mastered equally.
 
-## Phase 1: knowledge graph
+## Curriculum overview
 
-This release defines the dependency backbone on which the remaining five phases will
-be built. Start with:
+This release integrates all six phases. Start with:
 
-1. [Graph schema](graph-schema.md)
+1. [Learner guide](learner-guide.md)
 2. [Global knowledge graph](global-graph.md)
-3. [Coverage matrix](coverage-matrix.md)
-4. [Syllabus schema](syllabus-schema.md)
-5. [Resource and glossary schema](resource-schema.md)
-6. [Shared resource catalog](resource-catalog.md)
-7. [Project and assessment schema](phase-4-schema.md)
-8. [Time and pathway schema](phase-5-schema.md)
-9. [Lifelong pathways](pathways.md)
-10. [Specializations](specializations.md)
-11. [Review and retention system](review-system.md)
-12. [Discipline index](#discipline-index)
-13. [Standards and source frameworks](sources.md)
+3. [Lifelong pathways](pathways.md)
+4. [Specializations](specializations.md)
+5. [Cross-disciplinary connection atlas](connection-atlas.md)
+6. [Discipline index](#discipline-index)
+7. [Review and retention system](review-system.md)
+8. [Editorial and evidence policy](editorial-policy.md)
+9. [Empirical evaluation protocol](evaluation-protocol.md)
+10. [Publication checklist](publication-checklist.md)
+11. [Validation report](validation.md)
+
+Architecture and source schemas:
+
+- [Graph schema](graph-schema.md)
+- [Syllabus schema](syllabus-schema.md)
+- [Resource and glossary schema](resource-schema.md)
+- [Shared resource catalog](resource-catalog.md)
+- [Project and assessment schema](phase-4-schema.md)
+- [Time and pathway schema](phase-5-schema.md)
+- [Editorial and publication schema](phase-6-schema.md)
+- [Required-coverage matrix](coverage-matrix.md)
+- [Standards and source frameworks](sources.md)
 
 The graph begins at ordinary language, observation, counting, and self-regulation. It
 then develops reasoning, quantitative and evidential literacy, disciplinary models, and
@@ -34,8 +43,8 @@ finally integrative judgment. A learner may branch, but may not skip prerequisit
   learning skills are explicit.
 - **Core before extension:** `Core` means part of the smallest defensible common
   curriculum; `Extension` preserves advanced depth or a specialist path.
-- **Competence, not exposure:** later phases will pair each node with measurable
-  outcomes and assessments.
+- **Competence, not exposure:** each node has measurable outcomes, projects,
+  assessments, and delayed review.
 - **Multiple civilizations:** historical and intellectual sequences are global, with
   Islamic civilization studied both as part of world history and on its own terms.
 - **Epistemic transparency:** empirical, mathematical, historical, interpretive,
@@ -102,9 +111,9 @@ finally integrative judgment. A learner may branch, but may not skip prerequisit
 
 | Phase | Status |
 |---|---|
-| 1. Knowledge graph | In this release |
+| 1. Knowledge graph | Complete in this release (634-unit acyclic graph) |
 | 2. Syllabi and outcomes | Complete in this release (634/634 units) |
 | 3. Resources and glossaries | Complete in this release (634/634 units) |
 | 4. Projects and assessment | Complete in this release (156 projects; 634/634 unit assessments) |
 | 5. Schedules and pathways | Complete in this release (20,854-hour full plan) |
-| 6. Editorial integration | Not started |
+| 6. Editorial integration | Complete in this release (741 discipline pairs; 39 public portals) |

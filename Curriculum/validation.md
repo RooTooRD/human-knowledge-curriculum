@@ -221,3 +221,54 @@ The validator:
 The hour estimates remain hypotheses until real learners log time. Phase 6 should
 compare planned and observed time by unit, revise difficulty multipliers, and publish
 the sample size and uncertainty rather than presenting point estimates as universal.
+
+## Phase 6 result
+
+| Check | Result |
+|---|---:|
+| Public discipline portals | 39 |
+| Required subject sections per portal | 12 |
+| Discipline connection views | 39 |
+| Connections per discipline | 38 |
+| Directed discipline views | 1,482 |
+| Canonical unordered discipline pairs | 741 |
+| Graph units retained | 634 |
+| Markdown files audited | 374 |
+| Local links and fragments checked | 6,178 |
+| Broken local links or fragments | 0 |
+| Portal, pair, reciprocal-view, entry-unit, or graph-edge failures | 0 |
+| Heading, table, image-alternative, or Mermaid-prose failures | 0 |
+| Cross-artifact unit-parity failures | 0 |
+
+Every discipline portal exposes why the subject matters, outcomes, graph, syllabus,
+prerequisites, hours, mastery checks, resources, projects, assessment, misconceptions,
+and connections. Detailed records remain canonical in their dedicated files.
+
+The connection atlas contains `39 × 38 ÷ 2 = 741` canonical pair records. Each record
+states a reciprocal relationship, valid entry units from both disciplines, an
+integration prompt, and either the exact direct prerequisite edges or an explicit
+integrative-only label. The 39 subject views resolve to those records rather than
+duplicating their explanations.
+
+## Phase 6 validation method
+
+The validator:
+
+1. parsed all 634 Phase 1 units, ownership, and prerequisite edges;
+2. required the twelve portal headings in order for all 39 disciplines;
+3. checked exact 38-discipline coverage in every subject connection view;
+4. reconstructed all 741 unordered discipline pairs from graph ownership;
+5. compared every atlas direct-edge claim with the actual prerequisite graph;
+6. required valid entry units from both disciplines and reciprocal canonical IDs;
+7. rechecked exact unit-row parity across syllabus, resources, glossary, projects,
+   assessment, and schedule, supporting both established Phase 2 syllabus formats;
+8. resolved local Markdown paths and fragments;
+9. checked one level-one heading, unskipped heading hierarchy, consistent Markdown
+   table columns, image alternatives, and prose equivalents for Mermaid diagrams.
+
+This is a source-level structural audit. It does not establish accessibility of every
+renderer, scholarly consensus, resource availability in every country, assessment
+validity, learning effectiveness, or accurate universal hours. The
+[editorial policy](editorial-policy.md), [publication checklist](publication-checklist.md),
+and [evaluation protocol](evaluation-protocol.md) define the human and empirical work
+required for those claims.

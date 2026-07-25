@@ -278,3 +278,112 @@ Completed 2026-07-25.
   failure correction, consolidation weeks, annual audit, leave, and overload rules.
 - Validation result: zero time-component, total, coverage, duplication, prerequisite,
   annual-capacity, specialization, review-sequence, or relative-link failures.
+
+## 2026-07-25 — Phase 6 production plan
+
+Phase 6 integrates the five technical layers into an accessible public reference. It
+does not hide the curriculum's limits: resource currency, time estimates, assessment
+quality, and transfer claims remain dated editorial judgments or empirical hypotheses.
+
+### Public information architecture
+
+The repository receives a root landing page and the curriculum receives a learner
+guide. Every discipline README becomes a complete subject portal with the twelve
+required sections:
+
+1. why the subject matters;
+2. learning outcomes;
+3. knowledge graph;
+4. complete syllabus;
+5. exact prerequisites;
+6. estimated hours;
+7. mastery checklist;
+8. resources;
+9. projects;
+10. assessment;
+11. common misconceptions;
+12. connections.
+
+The portal points to canonical detailed records rather than duplicating hundreds of
+unit rows. Stable graph IDs remain the join key across all files.
+
+### Connection architecture
+
+Every unordered pair of the 39 disciplines receives one canonical connection record:
+`39 × 38 ÷ 2 = 741` records. Each record states:
+
+- what each discipline contributes to the other;
+- exact entry units from both disciplines;
+- an integrative question or artifact;
+- whether the graph contains a direct prerequisite edge between the disciplines.
+
+Each discipline receives `connections.md` with exactly 38 views, one for every other
+discipline. Reciprocal views resolve to the same canonical atlas record, preventing
+contradictory duplicate explanations.
+
+### Editorial and evidence policy
+
+Publication guidance must define:
+
+- claim classes and the evidence expected for descriptive, causal, normative,
+  interpretive, legal, theological, and planning claims;
+- citation, quotation, edition, link, and annual-review rules;
+- treatment of disagreement, cultural and religious traditions, translation, and
+  contested terminology;
+- accessibility rules for headings, link purpose, tables, diagrams, transcripts,
+  symbols, color, and plain-text alternatives;
+- AI-assistance disclosure and human review;
+- contributor workflow, stable-ID governance, and release criteria.
+
+Accessibility guidance is informed by WCAG 2.2 and W3C table and page-structure
+guidance. The Markdown corpus can support but cannot by itself claim conformance for
+every future rendering platform.
+
+### Empirical evaluation
+
+Phase 6 publishes a pilot and revision protocol for comparing planned with observed
+hours, checking assessment reliability and accessibility, measuring delayed retention
+and transfer, and reporting sample size and uncertainty. No learner-effectiveness claim
+is promoted from “proposed” to “supported” without data and a dated analysis.
+
+### Phase 6 acceptance tests
+
+- A root README and public learner guide exist.
+- All 39 discipline portals expose the same twelve required sections.
+- All 39 discipline `connections.md` files exist.
+- The atlas contains exactly 741 unique discipline pairs.
+- Every discipline view contains exactly 38 other disciplines with no self-pair.
+- Reciprocal views resolve to one canonical record.
+- Every connection names valid entry-unit IDs from both disciplines.
+- Direct dependency labels agree with the Phase 1 graph.
+- All 634 IDs retain one-to-one parity across roadmap, syllabus, resources, glossary,
+  projects, assessment, and schedule artifacts.
+- Every local Markdown link and explicit atlas anchor resolves.
+- Headings have one level-one title and do not skip levels.
+- Tables have a delimiter row and consistent column counts.
+- Images, if introduced, have non-empty text alternatives; Mermaid diagrams have a
+  prose explanation.
+- Sources, living-resource dates, limitations, contribution rules, and a publication
+  checklist are visible from the root landing page.
+- Phase 3–6 validators complete with zero failures.
+
+### Phase 6 completion record
+
+Completed 2026-07-25.
+
+- Added a root public landing page, learner guide, editorial and evidence policy,
+  empirical evaluation protocol, contributor guidance, and publication checklist.
+- Rebuilt all 39 discipline READMEs as portals exposing the twelve required subject
+  sections and exact cross-disciplinary prerequisite gateways.
+- Added 39 `connections.md` views covering all 38 other disciplines each.
+- Added a canonical atlas of all 741 unordered discipline pairs, with reciprocal
+  explanations, valid entry units, integration prompts, and exact graph-edge status.
+- Added accessible prose equivalents for every Mermaid diagram and source-level rules
+  for headings, links, tables, images, symbols, captions, and rendering review.
+- Added deterministic Phase 6 build and validation scripts.
+- Validation result: 634-unit parity retained, 1,482 directed connection views,
+  741 canonical pairs, 6,178 local links and fragments checked, and zero portal,
+  connection, graph-edge, parity, link, heading, table, image, or diagram failures.
+- Published explicit limits: structural validation does not itself establish
+  curriculum effectiveness, assessment validity, universal hours, or rendered WCAG
+  conformance; those claims require the documented human and empirical evaluation.
