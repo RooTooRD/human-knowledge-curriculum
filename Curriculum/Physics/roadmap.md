@@ -1,0 +1,23 @@
+# Physics Knowledge Graph
+
+- `PHY-B01` — Physical quantities, units, dimensional analysis, estimation, and measurement [Beginner; Core] ← FND-B07, MAT-B03, RSH-B03
+  - `PHY-B02` — Kinematics, vectors, frames, and motion graphs [Beginner; Core] ← PHY-B01, MAT-B05
+    - `PHY-B03` — Forces, Newtonian mechanics, momentum, energy, and rotation [Beginner; Core] ← PHY-B02, MAT-I02
+  - `PHY-B04` — Charge, current, circuits, voltage, power, and magnetism [Beginner; Core] ← PHY-B01, MAT-B05
+  - `PHY-B05` — Oscillations, waves, sound, light, and geometric optics [Beginner; Core] ← PHY-B02, MAT-B06
+  - `PHY-B06` — Temperature, heat, gases, entropy, and thermodynamic processes [Beginner; Core] ← PHY-B01, MAT-B06
+- `PHY-I01` — Analytical and computational classical mechanics [Intermediate; Core] ← PHY-B03, MAT-I04, MAT-I07
+- `PHY-I02` — Electromagnetic fields, potentials, induction, and Maxwell equations [Intermediate; Core] ← PHY-B04, MAT-I05, MAT-I07
+- `PHY-I03` — Wave equation, interference, diffraction, Fourier methods, and physical optics [Intermediate; Core] ← PHY-B05, MAT-I07
+- `PHY-I04` — Thermodynamics, kinetic theory, statistical mechanics, and information [Intermediate; Core] ← PHY-B06, STA-I01, MAT-I04
+- `PHY-I05` — Special relativity, spacetime, energy-momentum, and covariance [Intermediate; Core] ← PHY-I01, MAT-I06
+- `PHY-I06` — Quantum phenomena, states, amplitudes, operators, and measurement [Intermediate; Core] ← PHY-I03, MAT-I06, STA-I01
+  - `PHY-A01` — Quantum mechanics: Schrödinger equation, spin, atoms, and approximation [Advanced; Core] ← PHY-I06, MAT-I06, MAT-I07
+- `PHY-I07` — Experimental physics: instruments, uncertainty, calibration, and signal analysis [Intermediate; Core] ← PHY-B01, STA-I03, RSH-I04
+- `PHY-I08` — Computational physics and numerical modeling [Intermediate; Core] ← PHY-I01, MAT-A04, CSC-B04
+- `PHY-A02` — Condensed matter, solids, semiconductors, superconductivity, and materials [Advanced; Core] ← PHY-A01, PHY-I04
+- `PHY-A03` — Nuclear and particle physics, symmetries, and the Standard Model [Advanced; Core] ← PHY-A01, PHY-I05
+- `PHY-A04` — General relativity, gravitation, and curved spacetime [Advanced; Extension] ← PHY-I05, MAT-A07
+- `PHY-A05` — Fluid, plasma, continuum, and nonlinear physics [Advanced; Extension] ← PHY-I01, MAT-A10, SYS-I04
+- `PHY-A06` — History, interpretation, and philosophy of physical theory [Advanced; Core] ← PHY-I06, HST-I07, PHI-I03
+- `PHY-E01` — Quantum field theory and frontier physics [Expert; Extension] ← PHY-A01, PHY-A03, MAT-A10

@@ -1,0 +1,31 @@
+# Mathematics Knowledge Graph
+
+- `MAT-B01` — Numerals, place value, arithmetic, and estimation [Beginner; Core] ← FND-B02
+  - `MAT-B02` — Integers, divisibility, primes, and modular arithmetic [Beginner; Core] ← MAT-B01
+  - `MAT-B03` — Fractions, ratios, proportions, percentages, and units [Beginner; Core] ← MAT-B01, FND-B07
+    - `MAT-B04` — Variables, expressions, identities, and algebraic manipulation [Beginner; Core] ← MAT-B02, MAT-B03
+      - `MAT-B05` — Equations, inequalities, systems, and coordinate graphs [Beginner; Core] ← MAT-B04
+        - `MAT-B06` — Functions, composition, inverse, and linear, polynomial, exponential, and logarithmic families [Beginner; Core] ← MAT-B05
+- `MAT-B07` — Euclidean geometry, measurement, congruence, similarity, and coordinates [Beginner; Core] ← MAT-B03
+  - `MAT-I02` — Trigonometry, circles, vectors, and analytic geometry [Intermediate; Core] ← MAT-B06, MAT-B07
+- `MAT-B08` — Sets, relations, quantifiers, notation, and elementary combinatorics [Beginner; Core] ← FND-I03, MAT-B02
+  - `MAT-I01` — Discrete mathematics: counting, graphs, trees, recursion, and invariants [Intermediate; Core] ← MAT-B08, LOG-I01
+  - `MAT-I08` — Proof: direct, contrapositive, contradiction, induction, construction [Intermediate; Core] ← MAT-B08, LOG-I02
+- `MAT-I03` — Limits, continuity, derivatives, and one-variable differential calculus [Intermediate; Core] ← MAT-B06, MAT-I02
+  - `MAT-I04` — Integration, fundamental theorem, sequences, and series [Intermediate; Core] ← MAT-I03, MAT-I08
+    - `MAT-I05` — Multivariable and vector calculus [Intermediate; Core] ← MAT-I04, MAT-I02
+    - `MAT-I07` — Ordinary differential equations and dynamical systems [Intermediate; Core] ← MAT-I04, MAT-I06
+- `MAT-I06` — Linear algebra: vector spaces, matrices, transformations, eigenstructure [Intermediate; Core] ← MAT-B05, MAT-I08
+  - `MAT-A04` — Numerical analysis and scientific computing [Advanced; Core] ← MAT-I04, MAT-I06, CSC-B03
+  - `MAT-A05` — Optimization: convexity, constraints, duality, and variational methods [Advanced; Core] ← MAT-I05, MAT-I06
+- `MAT-A01` — Real analysis, metric spaces, and rigorous calculus [Advanced; Extension] ← MAT-I04, MAT-I08
+  - `MAT-A09` — Measure, integration, and functional analysis [Advanced; Extension] ← MAT-A01, MAT-I06
+- `MAT-A02` — Abstract algebra: groups, rings, fields, and modules [Advanced; Extension] ← MAT-I01, MAT-I08
+  - `MAT-A03` — Number theory and algebraic structures [Advanced; Extension] ← MAT-A02
+- `MAT-A06` — Complex analysis and transforms [Advanced; Extension] ← MAT-A01, MAT-I05
+- `MAT-A07` — Topology and differential geometry [Advanced; Extension] ← MAT-A01, MAT-I08
+- `MAT-A08` — Foundations: axiomatic set theory, computability, and metamathematics [Advanced; Extension] ← MAT-I01, MAT-I08, LOG-I03
+- `MAT-A10` — Partial differential equations and mathematical physics [Advanced; Extension] ← MAT-I05, MAT-I07, MAT-A01
+- `MAT-E01` — Category theory and categorical structures [Expert; Extension] ← MAT-A02, MAT-A07, MAT-A08
+- `MAT-E02` — Research mathematics and theorem creation [Expert; Extension] ← MAT-A01, MAT-A02, MAT-A07
+
